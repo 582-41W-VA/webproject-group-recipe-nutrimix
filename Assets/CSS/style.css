@@ -268,42 +268,42 @@ body::before {
   }
 
 .figma .img-1{
-    background-image: url(./Images/homepageNutrimix.png);
+    background-image: url('../Images/homepageNutrimix.png');
 }
 
 .figma .img-2{
-    background-image: url(./Images/SearchResults.png);
+    background-image: url('../Images/SearchResults.png');
 }
 .figma .img-3{
-    background-image: url(./Images/SearchFilterPage.png);
+    background-image: url(../Images/SearchFilterPage.png);
 }
 
 .figma .img-4{
-    background-image: url(./Images/RecipeDetails.png);
+    background-image: url(../Images/RecipeDetails.png);
 }
 
 .figma .img-5{
-    background-image: url(./Images/Login_Nutrimix.png);
+    background-image: url(../Images/Login_Nutrimix.png);
 }
 
 .figma .img-6{
-    background-image: url(./Images/Profile.png);
+    background-image: url(../Images/Profile.png);
 }
 .figma .img-7{
-    background-image: url(./Images/AddRecipe.png);
+    background-image: url(../Images/AddRecipe.png);
 }
 .figma .img-8{
-    background-image: url(./Images/createdRecipes.jpeg);
+    background-image: url(../Images/createdRecipes.jpeg);
     
 }
 .figma .img-9{
-    background-image: url(./Images/Admin.png);
+    background-image: url(../Images/Admin.png);
 }
 .figma .img-12{
-    background-image: url(./Images/phase3/SearchResults.png);
+    background-image: url(../Images/phase3/SearchResults.png);
 }
 .figma .img-13{
-    background-image: url(./Images/phase3/SearchFilterPage.png);
+    background-image: url(../Images/phase3/SearchFilterPage.png);
 }
 
 /* Task Table */
