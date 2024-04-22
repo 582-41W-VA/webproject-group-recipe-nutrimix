@@ -11,6 +11,8 @@ Box, TextField, Select, MenuItem, Button, IconButton, FormControl, InputLabel
 } from "@mui/material";
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import EmailIcon from '@mui/icons-material/Email';
 
 const RecipeList = () => {
 const [user, setUser] = useState({});
