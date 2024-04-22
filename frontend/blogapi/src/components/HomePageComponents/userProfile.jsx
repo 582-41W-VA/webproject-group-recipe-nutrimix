@@ -325,7 +325,7 @@ Add
 )}
 </Box>
 
-<h2>Manage my recipe released</h2>
+<h2>Recent released</h2>
 <div className="recipe-listuser">
 {posts.map((post) => (
 <div key={post.id} className="recipe-card">
