@@ -88,7 +88,7 @@ const Favorites = () => {
             </header>
             <div style={{ borderBottom: '0.5px solid #CCCCCC', marginTop: '3%', marginBottom: '3%' }}></div>
             <h2>Recipes Collected</h2>
-            <div className="recipe-list">
+            <div className="recipe-listuser">
                 {favoritePosts.map((post) => (
                     <div key={post.id} className="recipe-card">
                         <Link to={`/recipe/${post.id}`} className="recipe-link">

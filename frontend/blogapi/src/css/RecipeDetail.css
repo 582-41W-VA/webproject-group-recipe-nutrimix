@@ -9,6 +9,10 @@ h3 {
   width:90%;
 }
 
+article img{
+  width:500px;
+}
+
 .header-flex{
   display: flex;
   justify-content: space-between;

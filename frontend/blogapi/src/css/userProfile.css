@@ -35,6 +35,10 @@ ul{
   border-radius: 25px;
 }
 
+.recipe-listuser img:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
 .filter-flex{
   display:flex;
   justify-content: space-between;
@@ -57,11 +61,11 @@ ul{
 }
 
 .delete-button {
-  color: #9e12c1; /* You can adjust the color */
+  color: #333; /* You can adjust the color */
 }
 
 .edit-button {
-  color:#4fb20c; /* You can adjust the color */
+  color:#333; /* You can adjust the color */
 }
 
 .textfield-container .custom-textfield {
@@ -79,5 +83,11 @@ ul{
 
 .custom-button:hover {
   background-color: #4CAF50; /* Change button color on hover */
+}
+
+.recipe-listuser{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Gap between cards */
 }
 

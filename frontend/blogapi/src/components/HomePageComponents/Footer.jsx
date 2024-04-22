@@ -37,17 +37,19 @@ const footers = [
 
 function Footer() {
     return (
-        <Container maxWidth="md" component="footer" sx={{ borderTop: '1px solid #ddd', marginTop: 8, paddingTop: 3, paddingBottom: 3 }}>
+        <Container maxWidth="md" component="footer" sx={{ borderTop: '1px solid #ddd', marginTop: 8, paddingTop: 3, paddingBottom: 3, marginLeft: 'auto', marginRight: 'auto'}}>
+            <div>
             <Grid container spacing={4} justifyContent="space-evenly">
                 {footers.map((footer) => (
-                    <Grid item xs={6} sm={3} key={footer.title}>
-                        <Typography variant="h6" color="textPrimary" gutterBottom>
-                            {footer.title}
-                        </Typography>
-                        <ul>
+                    <Grid item xs={6} sm={3}>
+                        <Typography variant="h6" color="textPrimary" gutterBottom sx={{ marginLeft: '36px' }}>
+    {footer.title}
+</Typography>
+
+                        <ul sx={{ listStyleType: 'none', paddingInlineStart: 0 }}>
                             {footer.description.map((item) => (
                                 <li key={item}>
-                                    <Link href="#" variant="subtitle1" color="textSecondary">
+                                    <Link href="#" variant="subtitle1" sx={{ textDecoration: 'none', color: 'text.secondary'}}>
                                         {item}
                                     </Link>
                                 </li>
@@ -59,13 +61,13 @@ function Footer() {
             <Box mt={5}>
                 <Typography variant="body2" color="textSecondary" align="center">
                     {'Copyright '}
-                    <Link color="inherit" href="https://mui.com/">
-                        Your Website
-                    </Link>{' '}
+                    NutriMix
                     {new Date().getFullYear()}
                     {'.'}
                 </Typography>
             </Box>
+            </div>
+    
         </Container>
     );
 }
