@@ -17,8 +17,11 @@ NutriMix is an innovative online recipe platform designed to cater to individual
 Stakeholders:
 
 Xuan (Front-End Developer): Responsible for designing the user interface and implementing key elements of the website to ensure an intuitive and visually appealing user experience.
+
 Jessica (Front-End Developer & Designer): Contributes to front-end development and design, focusing on structuring the flow of the user journey for seamless navigation and engagement.
+
 Wei (Backend Developer): Leads backend development, responsible for creating efficient APIs for recipe management.
+
 Myrna (Backend Developer): Collaborates with Wei on backend development, focusing on database architecture and API implementation.
 
 Phase 1: The Foundation
